@@ -3,14 +3,14 @@ import Button from "./Button";
 
 const HeroImg = () => {
   return (
-    <>
-      <div className="relative flex flex-col items-center text-white ip11pro:mb-[400px] pc:mb-[600px]">
+    <div className="pc:pb-[603px]">
+      <div className="pc:relarive flex flex-col items-center text-white ">
         <img
           src="/assets/images/heroimage.png"
           className="ip11pro:hidden pc:block"
           alt="food"
         />
-        <div className="absolute top-0 text-center flex flex-col items-center ">
+        <div className="pc:absolute text-center flex flex-col items-center ">
           <div className="mt-[73px]  text-center mb-[54px] max-w-[937px]">
             <p className="pc:text-tl mb-[17px] font-bold pc:text-white ip11pro:text-greyLight ip11pro:text-rtl">
               Food app
@@ -31,8 +31,11 @@ const HeroImg = () => {
             </Button>
           </div>
         </div>
+        <div className="ip11pro:-ml-[5.5rem] ip11pro:-mt-[100px] pc:-mt-0 pc:absolute pc:top-[364px] pc:left-[236px] pc:ml-0 ">
+          <img src="/assets/images/content1.png" className="" alt="" />
+        </div>
       </div>
-    </>
+    </div>
   );
 };
 

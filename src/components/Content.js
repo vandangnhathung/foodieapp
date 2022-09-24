@@ -6,9 +6,7 @@ const Content = () => {
   return (
     <div>
       <HeroImg></HeroImg>
-      <div className="ip11pro:-ml-[5.5rem] pc:ml-0 pc:absolute pc:top-1/2 pc:left-1/2 pc:-translate-x-[68%] ">
-        <img src="/assets/images/content1.png" className="" alt="" />
-      </div>
+
       <div className="pc:px-[278px] text-center pc:mb-[137px]">
         <div className="pc:border pc:border-3 pc:border-[#E4E4E4] pc:mb-[72px]"></div>
         <p className="ip11pro:text-tl pc:text-ht ip11pro:mb-[49px]">
